@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python -m sandr.cli guard-hook",
+            "statusMessage": "Sandr Dev Stack LoopGuard",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}

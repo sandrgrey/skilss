@@ -1,0 +1,19 @@
+[general]
+language = "ru"
+
+[memory]
+knowledge_dir = "./knowledge"
+db_path = "~/.cache/sandr-dev-stack/memory.db"
+tokenizer = "unicode61"
+
+[guard]
+enabled = true
+warning_after = 2
+reset_after = 3
+audit_after = 4
+state_path = "~/.local/state/sandr-dev-stack/guard.json"
+auditor = "none" # none | codex
+
+[hosts]
+install_codex = true
+install_claude = false
