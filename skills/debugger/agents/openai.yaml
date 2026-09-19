@@ -1,0 +1,3 @@
+interface:
+  display_name: "debugger"
+  short_description: "Sandr Dev Stack skill: debugger"
