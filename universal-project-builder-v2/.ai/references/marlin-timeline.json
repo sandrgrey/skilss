@@ -1,0 +1,36 @@
+{
+  "source": "Water.pdf / Marlin, pages 21-23 and 7-10",
+  "purpose": "reference-only preset; do not use as universal defaults",
+  "stage": { "width": 1440, "height": 810, "safeLeft": 96 },
+  "totalMs": 20000,
+  "scrollVh": 620,
+  "video": {
+    "seam": 0.5,
+    "crossfadeHalfWidth": 0.02,
+    "sourceSeekEasePerFrame": 0.26,
+    "sourceSeekThresholdSeconds": 0.012,
+    "clips": ["jetski-a.mp4", "jetski-b.mp4"]
+  },
+  "phasesMs": {
+    "word": [0, 300],
+    "word2": [75, 375],
+    "word3": [150, 450],
+    "body1": [200, 500],
+    "body2": [275, 575],
+    "body3": [350, 650],
+    "stat": [200, 2284],
+    "g54In": [3000, 3600],
+    "move1": [8000, 14000],
+    "move2": [15500, 18000]
+  },
+  "groups": {
+    "g53": { "start": 186, "end": -774 },
+    "g54": { "enter": 1050, "mid": 105, "end": -1115 },
+    "g55": { "enter": 1400, "mid": 740, "end": 144 }
+  },
+  "notes": [
+    "move2 ends at normalized 0.9 in the source, so 18000ms is its equivalent, not the full 20000ms.",
+    "The original claims 19 prototype interactions; only explicit serialized windows here are represented.",
+    "Copying these constants alone does not reproduce the Marlin site."
+  ]
+}

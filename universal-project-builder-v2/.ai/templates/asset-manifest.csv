@@ -1,0 +1,2 @@
+id,file_path,source_url_or_owner,license_or_permission,media_type,duration_seconds,dimensions,bytes,role,status
+example-hero,public/assets/hero.mp4,USER_PROVIDED,CONFIRM,video/mp4,TBD,TBD,TBD,scroll-hero,MISSING
